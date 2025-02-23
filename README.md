@@ -1,6 +1,3 @@
-
-
-```markdown
 # FundChain: Decentralized Funding DApp
 
 Revolutionize the way projects and ideas are funded with our blockchain crowdfunding DApp. This innovative platform leverages the power of blockchain technology to create a decentralized, transparent, and secure environment for raising capital.
@@ -83,5 +80,3 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
-
-```
