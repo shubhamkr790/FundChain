@@ -1,66 +1,87 @@
-# Decentralized Funding: Building and Deploying a Blockchain Crowdfunding DApp
-
-Building and Deploying a Blockchain Supply Chain Management DApp
-
-Revolutionize the way projects and ideas are funded with our blockchain crowdfunding DApp. This innovative platform leverages the power of blockchain technology to create a decentralized, transparent, and secure environment for fundraising.
-
-Our crowdfunding DApp enables project creators to raise capital directly from a global pool of investors without the need for intermediaries. By utilizing smart contracts, the DApp automates the fundraising process, ensuring that funds are released to project creators only when predefined milestones are met, thereby increasing accountability and reducing the risk of fraud
 
 
+```markdown
+# FundChain: Decentralized Funding DApp
 
-#### NodeJs & NPM Version
+Revolutionize the way projects and ideas are funded with our blockchain crowdfunding DApp. This innovative platform leverages the power of blockchain technology to create a decentralized, transparent, and secure environment for raising capital.
 
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+FundChain enables project creators to raise capital directly from a global pool of investors without the need for intermediaries. By utilizing smart contracts, the DApp automates the funding process, ensuring transparency and security.
+
+## Features
+- Decentralized platform for crowdfunding
+- Secure and transparent transactions
+- Automated funding process through smart contracts
+- Global pool of investors
+
+## Installation
+### Node.js & NPM
+Ensure you have Node.js and NPM installed. Recommended versions:
+- Node.js: v18.12.1
+- NPM: 8.19.2
+
+Download Node.js and NPM from [Node.js Official Site](https://nodejs.org/en/download).
+
+### Clone the Repository
+```bash
+git clone https://github.com/shubhamkr790/FundChain.git
+cd FundChain
 ```
 
-#### Clone Starter File
-
-
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
+### Install Dependencies
+```bash
+npm install
 ```
 
-#### Install Vs Code Editor
+### Setup Video
+Watch the setup and demo of the project:
+[Setup & Demo Video](https://code.visualstudio.com/download)
 
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+### VS Code Editor
+Download and install VS Code Editor:
+[VS Code Editor](https://code.visualstudio.com/download)
 
-#### NodeJs & NPM Version
+### Test Faucets
+Get free test faucets from Alchemy to transfer to your wallet address for deploying the contract:
+[Alchemy Faucets](https://www.alchemy.com/faucets)
 
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
+### RemixID
+We use RemixID for deploying the contract and generating the ABI, but you can use other tools like Hardhat:
+[RemixID](https://remix-project.org)
 
-#### Test Faucets
+### Polygon Mumbai
+Deploy the contract on Polygon Mumbai:
+[Polygon Mumbai](https://mumbai.polygonscan.com/)
 
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
+## Usage
+To run the DApp locally, follow these instructions:
+1. Start the local blockchain:
+    ```bash
+    npx hardhat node
+    ```
+2. Deploy contracts:
+    ```bash
+    npx hardhat run scripts/deploy.js --network localhost
+    ```
+3. Start the frontend:
+    ```bash
+    npm start
+    ```
 
-```https://www.alchemy.com/faucets
-  Get: Free Test Faucets
-```
+## Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
 
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Mumbai
-
-```https://mumbai.polygonscan.com/
-  OPEN: Polygon Mumbai
 ```
